@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [First Suite]" parallel="classes">
+  <test name="Chrome Test(failed)" parallel="classes">
+    <classes>
+      <class name="Framework.TestNG.Practice2">
+        <methods>
+          <include name="setEnviroment"/>
+        </methods>
+      </class> <!-- Framework.TestNG.Practice2 -->
+      <class name="Framework.TestNG.TestNGBasics">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="testsuite"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMthod"/>
+        </methods>
+      </class> <!-- Framework.TestNG.TestNGBasics -->
+      <class name="Framework.TestNG.LoginTest">
+        <methods>
+          <include name="closeTheEnviroment"/>
+          <include name="setEnviroment"/>
+          <include name="testLogIn"/>
+        </methods>
+      </class> <!-- Framework.TestNG.LoginTest -->
+      <class name="Framework.TestNG.Practice1">
+        <methods>
+          <include name="closeTheEnviroment"/>
+          <include name="setEnviroment"/>
+        </methods>
+      </class> <!-- Framework.TestNG.Practice1 -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [First Suite] -->

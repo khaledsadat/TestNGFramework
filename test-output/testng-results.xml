@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11947" started-at="2019-06-02T20:24:43Z" finished-at="2019-06-02T20:24:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11947" started-at="2019-06-02T20:24:43Z" finished-at="2019-06-02T20:24:55Z">
+      <class name="Framework.TestNG.Practice2Copy">
+        <test-method status="PASS" signature="setEnviroment()[pri:0, instance:Framework.TestNG.Practice2Copy@c038203]" name="setEnviroment" is-config="true" duration-ms="4177" started-at="2019-06-02T16:24:43Z" finished-at="2019-06-02T16:24:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnviroment -->
+        <test-method status="PASS" signature="hpLaptop()[pri:0, instance:Framework.TestNG.Practice2Copy@c038203]" name="hpLaptop" duration-ms="4495" started-at="2019-06-02T16:24:47Z" finished-at="2019-06-02T16:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hpLaptop -->
+        <test-method status="PASS" signature="macBook()[pri:0, instance:Framework.TestNG.Practice2Copy@c038203]" name="macBook" duration-ms="2436" started-at="2019-06-02T16:24:52Z" finished-at="2019-06-02T16:24:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- macBook -->
+        <test-method status="PASS" signature="closeTheEnviroment()[pri:0, instance:Framework.TestNG.Practice2Copy@c038203]" name="closeTheEnviroment" is-config="true" duration-ms="826" started-at="2019-06-02T16:24:54Z" finished-at="2019-06-02T16:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheEnviroment -->
+      </class> <!-- Framework.TestNG.Practice2Copy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
